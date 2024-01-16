@@ -1,0 +1,59 @@
+{
+    "os": "Linux-6.2.0-1018-azure-x86_64-with-glibc2.31",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-01-16T16:36:47.828110",
+    "startedAt": "2024-01-16T16:36:47.338331",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": null,
+        "commit": "1af2dca9e2ce8639bde0ec08a91705ea39c33f9b"
+    },
+    "email": "siqiyuanyuan@gmail.com",
+    "root": "/workspaces/my-jupyter-template",
+    "host": "codespaces-5deb8f",
+    "username": "codespace",
+    "executable": "/home/codespace/.python/current/bin/python3",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3084.205,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3213.199,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2910.886,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3112.227,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3100.508,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 31.32598876953125,
+            "used": 16.37502670288086
+        }
+    },
+    "memory": {
+        "total": 15.606903076171875
+    }
+}
