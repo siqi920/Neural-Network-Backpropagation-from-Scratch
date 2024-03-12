@@ -1,7 +1,14 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# simple 2 layer  neural network for XOR gate from scratch
+Feed forwad equations
+\begin{align*}
+&z^1 = w^1 x + b^1 \\
+&a^1 = f(z^1) \\
+&z^2 = w^2 a^1 + b^2 \\
+&a^2 = f(z^2) 
+\end{align*}
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
-
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
-
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+loss fuction: cross entropy loss (binary classfication in this case)
+$$
+l = -\frac{1}{N} {(y \cdot \log(a^2) + (1-y) \cdot \log(1-a^2)))}
+$$
+Where N is number of training data, y is the true label, $a^2$ is output of the network.
